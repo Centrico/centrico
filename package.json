@@ -7,7 +7,6 @@
     "gatsby": "^1.9.45",
     "gatsby-link": "^1.6.17",
     "gatsby-plugin-react-helmet": "^1.0.5",
-    "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.74.2"
   },
   "keywords": [
@@ -23,6 +22,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "prettier": "^1.6.1"
+    "prettier": "^1.6.1",
+    "semantic-ui": "^2.2.13"
   }
 }

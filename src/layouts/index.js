@@ -2,11 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import SiteNav from '../components/site-nav'
+import '../../semantic/dist/semantic.min.css';
 
-// css
-
-import 'semantic-ui-css/semantic.min.css';
-import './index.css'
 import './centrico.css'
 
 const TemplateWrapper = ({ children }) => (
