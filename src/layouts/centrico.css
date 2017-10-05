@@ -1,0 +1,17 @@
+/*  Site Nav */
+
+.site-logo img {
+  max-width: 300px;
+}
+
+.ui.site-nav.menu {
+  background: white;
+  box-shadow: none;
+  border: none;
+}
+.ui.site-nav.menu .item {
+  position: initial;
+}
+.ui.site-nav.menu .active.item {
+  background: white;
+}
