@@ -30,6 +30,7 @@ export default class MenuExampleBasic extends Component {
           active={activeItem === 'portfolio'}
           onClick={this.handleItemClick}
           position={'right'}
+          as={'div'}
         >
           <Link to="/portfolio/">Portfolio</Link>
         </Menu.Item>
@@ -37,6 +38,7 @@ export default class MenuExampleBasic extends Component {
           name='services'
           active={activeItem === 'services'}
           onClick={this.handleItemClick}
+          as={'div'}
         >
         <Link to="/services/">Services</Link>
         </Menu.Item>
@@ -45,6 +47,7 @@ export default class MenuExampleBasic extends Component {
           name='about'
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
+          as={'div'}
         >
           <Link to="/about/">About</Link>
         </Menu.Item>
@@ -53,6 +56,7 @@ export default class MenuExampleBasic extends Component {
           name='contact'
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}
+          as={'div'}
         >
           <Link to="/contact/">Contact</Link>
         </Menu.Item>
