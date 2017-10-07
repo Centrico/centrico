@@ -1,6 +1,7 @@
 ---
 title: "Actualize"
 date: "2017-08-10"
+tags: [react,blogging,gatsby,node]
 ---
 
 Pandas are really sweet.
