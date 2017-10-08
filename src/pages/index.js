@@ -1,8 +1,11 @@
+import _ from 'lodash'
 import React from 'react'
 import Link from 'gatsby-link'
 
 var ReactDOM = require('react-dom');
 var ReactMarkdown = require('react-markdown');
+
+import { Grid, Image } from 'semantic-ui-react'
 
 
 var mark = `
@@ -13,12 +16,21 @@ export default ({ data }) => {
   return (
     <div>
       <ReactMarkdown source={mark} />
-      <h1>markdown</h1>
+      <h3>RECENT WORK</h3>
+      <Grid columns={5}>
       {data.allMarkdownRemark.edges.map(({ node }) =>
-        <div>
-            {node.id.toString()}
-        </div>
+          <Grid.Column>
+            <h3>{node.frontmatter.title}</h3>
+            {node.excerpt}
+            <Link to={node.fields.slug}>
+              go
+            </Link>
+            {node.frontmatter.tags.map(({i}) =>
+            <span>{[i]}</span>
+          )}
+          </Grid.Column>
       )}
+      </Grid>
     </div>
   )
 }
@@ -26,11 +38,12 @@ export default ({ data }) => {
 export const query = graphql`
   query MyFilesQuery {
   allMarkdownRemark
-   (filter: {frontmatter: { tags: {in: ["react"]} } } )
+   (filter: {frontmatter: { tags: {in: ["featured"]} } } )
      {
        edges {
          node {
            id
+           excerpt
            fields {
              slug
            }

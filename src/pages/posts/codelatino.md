@@ -1,7 +1,7 @@
 ---
 title: "Codelatino"
 date: "2017-08-02"
-tags: [blogging,gatsby,node]
+tags: [featured, dev, design, community]
 ---
 
 Pandas are really sweet.
