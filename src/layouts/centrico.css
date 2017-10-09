@@ -1,7 +1,7 @@
 /*  Site Nav */
 
 .site-logo img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .ui.site-nav.menu {
@@ -14,4 +14,19 @@
 }
 .ui.site-nav.menu .active.item {
   background: white;
+}
+
+
+/* Marquee */
+
+.marquee {
+  padding-top: 4em;
+}
+
+.spaced {
+  font-weight: 500!important;
+  letter-spacing: 5px!important;
+}
+.ui.header {
+margin:  calc(2rem - .14285714em) 0 1rem!important;
 }
