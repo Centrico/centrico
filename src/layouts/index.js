@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import SiteNav from '../components/site-nav'
+import Footer from '../components/footer'
 import '../../semantic/dist/semantic.min.css';
 
 import './centrico.css'
@@ -19,6 +20,7 @@ const TemplateWrapper = ({ children }) => (
     <div>
       {children()}
     </div>
+    <Footer />
   </div>
 )
 
