@@ -21,7 +21,7 @@ export default ({ data }) => {
       <Segment padded={"very"} basic className={"fluid-grid"}>
         <Container>
           <Segment padded={"very"} basic>
-            <Header as={'h4'} className={"sub-header"} color={"purple"}>RECENT WORK</Header>
+            <Header as={'h4'} className={"spaced"} color={"purple"}>RECENT WORK</Header>
           </Segment>
         </Container>
         <Grid columns={4}>
@@ -43,7 +43,8 @@ export default ({ data }) => {
           <Header as={'h2'} color={"purple"}>We’re All an Innovative Force</Header>
           <Header as={'h4'} className={"spaced"} color={"purple"}> OUR APPROACH</Header>
           <p>We are a digital firm with creativity at the core. We believe our clients represent the innovative force that enhances, helps, transforms... people’s lifes. We are here to help you push those boundries even further and provide meaningful experiences that WOW costmers and drive bussines. We focus in  websites, custom apps, user experience, branding, marketing, and all things digital for clients, audiences and ourselves.</p>
-          <Link to="/about/">About</Link>
+          <Link className={"spaced c-button"} to="/about/">
+          ABOUT</Link>
         </Segment>
 
         <Segment padded={"very"} basic className={"fluid-grid"}>
@@ -61,8 +62,8 @@ export default ({ data }) => {
               <Header as={'h4'} className={"spaced"} color={"purple"}> DEVELOPMENT</Header>
               Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
             </Grid.Column>
-            <Link to="/services/">VIEW All SERVICES</Link>
           </Grid>
+          <Link className={"spaced c-button"} to="/services/"> All SERVICES</Link>
         </Segment>
       </Container>
 
@@ -92,7 +93,7 @@ export default ({ data }) => {
               </Grid.Column>
               <Grid.Column>
                 <Form.TextArea label='About' placeholder='Please describe your project ...' />
-                <Button type='submit'>Submit</Button>
+                <Button className={'c-button'} type='submit'>Submit</Button>
               </Grid.Column>
             </Grid>
           </Form>

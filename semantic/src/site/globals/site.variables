@@ -14,7 +14,6 @@
 @bigSize : (18 / 13);
 
 @h1: 2.5em;
-@h1Color: @purple;
 @h2: 2.3em;
 
 @defaultBorderRadius: 0.2307em;
@@ -24,14 +23,14 @@
 /* Colors */
 @purple: #653e92;
 @green: #78CB5B;
-@orange: #D26911;
+@softGray: #787d85;
 @gray: #424a53;
 @primaryColor: @purple;
 @secondaryColor: @gray;
 
 /* Links */
-@linkColor: @purple;
-@linkHoverColor: @linkColor;
+@linkColor: @softGray;
+@linkHoverColor: @purple;
 @linkHoverUnderline: underline;
 
 /* Borders */

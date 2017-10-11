@@ -25,8 +25,9 @@
 
 .spaced {
   font-weight: 500!important;
-  letter-spacing: 5px!important;
+  letter-spacing: 4px!important;
 }
+
 .ui.header {
 margin:  calc(2rem - .14285714em) 0 1rem!important;
 }
