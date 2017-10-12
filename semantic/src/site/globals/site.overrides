@@ -26,10 +26,24 @@ body {
   font-weight: 500;
 }
 
-
 .ui.button.c-button:hover, .c-button:hover, .ui.button.c-button:focus, .c-button:focus {
   text-decoration: none;
   border: 2px solid #653e92;
   background-color: #653e92;
   color: white;
+}
+
+/* Variants */
+
+.c-button.inverse, .ui.button.c-button.inverse {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.ui.button.c-button.inverse:hover, .c-button.inverse:hover, .ui.button.c-button.inverse:focus, .c-button.inverse:focus {
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: white;
+  color: #653e92;
 }

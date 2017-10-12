@@ -32,7 +32,7 @@
 margin:  calc(2rem - .14285714em) 0 1rem!important;
 }
 
-/* footer */
+/* Footer */
 
 
 .footer {
@@ -44,4 +44,18 @@ margin:  calc(2rem - .14285714em) 0 1rem!important;
 .footer a {
   display: block;
   margin: .5em 0;
+}
+
+
+/* Form */
+
+.form {
+  background-color: #653e92;
+  color: white;
+  padding: 5em 0;
+}
+
+.form h2, .form h4, .ui.form .field>label {
+  color: white!important;
+  font-weight: 300;
 }

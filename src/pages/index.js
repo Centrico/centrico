@@ -66,39 +66,40 @@ export default ({ data }) => {
           <Link className={"spaced c-button"} to="/services/"> All SERVICES</Link>
         </Segment>
       </Container>
-
-      <Container>
-        <Segment padded={"very"} basic className={"fluid-grid"}>
-          <Header as={'h2'} color={"purple"}>Like what you see?  LETS TALK.</Header>
-          <Header as={'h4'} className={"sub-header"}>SUBMIT REQUEST</Header>
-          <Form>
-            <Grid columns={2}>
-              <Grid.Column>
-                <Form.Field>
-                  <label>First Name</label>
-                  <input placeholder='First Name' />
-                </Form.Field>
-                <Form.Field>
-                  <label>Last Name</label>
-                  <input placeholder='Last Name' />
-                </Form.Field>
-                <Form.Field>
-                  <label>Last Name</label>
-                  <input placeholder='Last Name' />
-                </Form.Field>
-                <Form.Field>
-                  <label>Last Name</label>
-                  <input placeholder='Last Name' />
-                </Form.Field>
-              </Grid.Column>
-              <Grid.Column>
-                <Form.TextArea label='About' placeholder='Please describe your project ...' />
-                <Button className={'c-button'} type='submit'>Submit</Button>
-              </Grid.Column>
-            </Grid>
-          </Form>
-        </Segment>
-      </Container>
+      <div className={"form"}>
+        <Container>
+          <Segment padded={"very"} basic className={"fluid-grid"}>
+            <Header as={'h2'}>Like what you see?  LETS TALK.</Header>
+            <Header as={'h4'} className={"spaced"}>SUBMIT REQUEST</Header>
+            <Form>
+              <Grid columns={2}>
+                <Grid.Column>
+                  <Form.Field>
+                    <label>First Name</label>
+                    <input placeholder='First Name' />
+                  </Form.Field>
+                  <Form.Field>
+                    <label>Last Name</label>
+                    <input placeholder='Last Name' />
+                  </Form.Field>
+                  <Form.Field>
+                    <label>Last Name</label>
+                    <input placeholder='Last Name' />
+                  </Form.Field>
+                  <Form.Field>
+                    <label>Last Name</label>
+                    <input placeholder='Last Name' />
+                  </Form.Field>
+                </Grid.Column>
+                <Grid.Column>
+                  <Form.TextArea label='About' placeholder='Please describe your project ...' />
+                  <Button className={'c-button inverse'} type='submit'>Submit</Button>
+                </Grid.Column>
+              </Grid>
+            </Form>
+          </Segment>
+        </Container>
+      </div>
     </div>
   )
 }

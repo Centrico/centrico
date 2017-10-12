@@ -21,6 +21,7 @@
 @disabledOpacity: 0.3;
 
 /* Colors */
+@white: #ffffff;
 @purple: #653e92;
 @green: #78CB5B;
 @softGray: #787d85;
