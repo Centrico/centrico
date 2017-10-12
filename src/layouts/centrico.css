@@ -31,3 +31,17 @@
 .ui.header {
 margin:  calc(2rem - .14285714em) 0 1rem!important;
 }
+
+/* footer */
+
+
+.footer {
+  background: #272b31;
+  padding: 5em 0;
+  color: #787d85;
+}
+
+.footer a {
+  display: block;
+  margin: .5em 0;
+}
