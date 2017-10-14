@@ -1,6 +1,9 @@
 import _ from 'lodash'
 import React from 'react'
 import Link from 'gatsby-link'
+import StrategyHmIcon from '../../public/images/strategy-hm-icon.png'
+import DesignHmIcon from '../../public/images/design-hm-icon.png'
+import DevHmIcon from '../../public/images/dev-hm-icon.png'
 
 var ReactDOM = require('react-dom');
 var ReactMarkdown = require('react-markdown');
@@ -46,26 +49,33 @@ export default ({ data }) => {
           <Link className={"spaced c-button"} to="/about/">
           ABOUT</Link>
         </Segment>
-
-        <Segment padded={"very"} basic className={"fluid-grid"}>
-          <Header as={'h2'} color={"purple"}>We help you design and develop products that people love.</Header>
-          <Grid columns={3}>
-            <Grid.Column>
-              <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-            </Grid.Column>
-            <Grid.Column>
-              <Header as={'h4'} className={"spaced"} color={"purple"}>DESIGN</Header>
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-            </Grid.Column>
-            <Grid.Column>
-              <Header as={'h4'} className={"spaced"} color={"purple"}> DEVELOPMENT</Header>
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-            </Grid.Column>
-          </Grid>
-          <Link className={"spaced c-button"} to="/services/"> All SERVICES</Link>
-        </Segment>
       </Container>
+
+      <div className={'muted-bg'}>
+        <Container>
+          <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
+            <Header as={'h2'} color={"purple"}>We help you design and develop products that your costumers will love.</Header>
+            <Grid columns={3} className={'no-vertical-margin'}>
+              <Grid.Column>
+                <img src={StrategyHmIcon} alt="Strategy Icon" />
+                <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+              </Grid.Column>
+              <Grid.Column>
+                <img src={DesignHmIcon} alt="Strategy Icon" />
+                <Header as={'h4'} className={"spaced"} color={"purple"}>DESIGN</Header>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+              </Grid.Column>
+              <Grid.Column>
+                <img src={DevHmIcon} alt="Strategy Icon" />
+                <Header as={'h4'} className={"spaced"} color={"purple"}> DEVELOPMENT</Header>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+              </Grid.Column>
+            </Grid>
+            <Link className={"spaced c-button"} to="/services/"> All SERVICES</Link>
+          </Segment>
+        </Container>
+      </div>
       <div className={"form"}>
         <Container>
           <Segment padded={"very"} basic className={"fluid-grid"}>

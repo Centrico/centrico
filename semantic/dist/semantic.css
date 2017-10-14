@@ -758,8 +758,16 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
+/* Global
+  (refactor to use with variables)
+*/
+
 body {
   font-weight: 300;
+}
+
+p {
+  line-height: 1.6em;
 }
 
 .ui.button.c-button,
@@ -774,7 +782,7 @@ body {
   color: #653e92;
   text-decoration: none;
   margin: 30px 0;
-  background: white;
+  background: transparent;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 500;

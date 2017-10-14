@@ -29,7 +29,7 @@
 }
 
 .ui.header {
-margin:  calc(2rem - .14285714em) 0 1rem!important;
+margin: 2rem 0!important;
 }
 
 /* Footer */
@@ -37,7 +37,7 @@ margin:  calc(2rem - .14285714em) 0 1rem!important;
 
 .footer {
   background: #272b31;
-  padding: 5em 0;
+  padding: 3em 0;
   color: #787d85;
 }
 
@@ -46,16 +46,33 @@ margin:  calc(2rem - .14285714em) 0 1rem!important;
   margin: .5em 0;
 }
 
+.hm-block-img img {
+  width: 80px;
+  margin: 2em 0 1em;
+}
+
 
 /* Form */
 
 .form {
   background-color: #653e92;
   color: white;
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 .form h2, .form h4, .ui.form .field>label {
   color: white!important;
   font-weight: 300;
+}
+
+/*  Grid No Margin */
+
+.ui.grid.no-vertical-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.muted-bg {
+  background-color: #eef0f1; /* Muted */
 }
