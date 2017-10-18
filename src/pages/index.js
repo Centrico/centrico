@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import StrategyHmIcon from '../../public/images/strategy-hm-icon.png'
 import DesignHmIcon from '../../public/images/design-hm-icon.png'
 import DevHmIcon from '../../public/images/dev-hm-icon.png'
-import Thumbnail from '../../public/images/active-citizen/ac-thumb.png'
+
 
 var ReactDOM = require('react-dom');
 var ReactMarkdown = require('react-markdown');
@@ -34,7 +34,7 @@ export default ({ data }) => {
               <h3>{node.frontmatter.title}</h3>
               {node.excerpt}
               <Link to={node.fields.slug}> go </Link>
-              <img src={Thumbnail} alt={node.frontmatter.title} />
+              <img src={node.frontmatter.image.childImageSharp.responsiveResolution.src} alt={node.frontmatter.title} />
               {node.frontmatter.tags.map(({i}) =>
               <span>{[i]}</span>
             )}
@@ -117,7 +117,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query MyFilesQuery {
+query MyFilesQuery {
   allMarkdownRemark(
     filter: {frontmatter: { tags: {in: ["featured"]} } },
    sort: { fields: [frontmatter___index], order: ASC }
@@ -134,10 +134,16 @@ export const query = graphql`
              title
              date
              tags
+            image {
+              childImageSharp {
+                responsiveResolution(width: 600) {
+                  src
+                }
+              }
+            }
            }
          }
        }
      }
-
   }
 `

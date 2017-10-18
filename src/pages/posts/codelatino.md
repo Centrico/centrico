@@ -2,6 +2,7 @@
 title: "Codelatino"
 date: "2017-08-02"
 tags: [featured, dev, design, community]
+image: th1.png
 ---
 
 Pandas are really sweet.

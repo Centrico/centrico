@@ -2,6 +2,7 @@
 title: "Actualize"
 date: "2017-08-10"
 tags: [featured]
+image: th1.png
 ---
 
 Pandas are really sweet.
