@@ -1,8 +1,8 @@
 ---
-title: "Peernation"
+title: "NAPW"
 date: "2017-08-02"
 tags: [featured, dev, design, community]
-image: th1.png
+image: thumbnail.png
 ---
 
 Pandas are really sweet.

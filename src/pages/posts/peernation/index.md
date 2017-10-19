@@ -1,8 +1,8 @@
 ---
-title: "Actualize"
-date: "2017-08-10"
-tags: [featured]
-image: th1.png
+title: "Peernation"
+date: "2017-08-02"
+tags: [featured, dev, design, community]
+image: thumbnail.png
 ---
 
 Pandas are really sweet.

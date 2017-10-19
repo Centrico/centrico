@@ -20,7 +20,8 @@
 /* Marquee */
 
 .marquee {
-  padding-top: 4em;
+  margin-bottom: -6rem;
+  margin-top: 2rem;
 }
 
 .spaced {
@@ -44,6 +45,11 @@ margin: 2rem 0!important;
 .footer a {
   display: block;
   margin: .5em 0;
+}
+
+.ui[class*="very padded"].segment.hm-block-img {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .hm-block-img img {
@@ -72,7 +78,37 @@ margin: 2rem 0!important;
   margin-bottom: 0;
 }
 
-
 .muted-bg {
   background-color: #eef0f1; /* Muted */
+}
+
+/* Thumbnails */
+
+.thumbnails-grid .thumbnail {
+  display: block;
+  padding-top: 100%;
+  width: 100%;
+  position: relative;
+  background-size: contain;
+}
+
+.thumbnail .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+}
+
+.ui.column.grid.thumbnails-grid {
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
+.ui.grid.thumbnails-grid>.column:not(.row) {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }

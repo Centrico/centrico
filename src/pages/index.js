@@ -11,7 +11,6 @@ var ReactMarkdown = require('react-markdown');
 
 import { Grid, Container, Image, Header, Input, Form, Button, Segment } from 'semantic-ui-react'
 
-
 export default ({ data }) => {
   return (
     <div>
@@ -28,16 +27,20 @@ export default ({ data }) => {
             <Header as={'h4'} className={"spaced"} color={"purple"}>RECENT WORK</Header>
           </Segment>
         </Container>
-        <Grid columns={4}>
+        <Grid columns={5} className={'thumbnails-grid'}>
         {data.allMarkdownRemark.edges.map(({ node }) =>
             <Grid.Column>
-              <h3>{node.frontmatter.title}</h3>
-              {node.excerpt}
-              <Link to={node.fields.slug}> go </Link>
-              <img src={node.frontmatter.image.childImageSharp.responsiveResolution.src} alt={node.frontmatter.title} />
-              {node.frontmatter.tags.map(({i}) =>
-              <span>{[i]}</span>
-            )}
+              <Link className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
+                <div className={'text'}>
+                  <h3>{node.frontmatter.title}</h3>
+                  {node.excerpt}
+                  <div className={'tags'}>
+                  {node.frontmatter.tags.map(({i}) =>
+                  <span>{[i]}</span>
+                  )}
+                  </div>
+                </div>
+              </Link>
             </Grid.Column>
         )}
         </Grid>
