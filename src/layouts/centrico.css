@@ -101,7 +101,19 @@ margin: 2rem 0!important;
   padding: 3em 2em 2em;
   background: rgba(34, 38, 38, .9);
   color: white;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
+
+.thumbnail .text:hover {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
 .thumbnail .text h5  {
   font-weight: 300;
   text-transform: uppercase;
