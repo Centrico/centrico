@@ -9,7 +9,7 @@ import DevHmIcon from '../../public/images/dev-hm-icon.png'
 var ReactDOM = require('react-dom');
 var ReactMarkdown = require('react-markdown');
 
-import { Grid, Container, Image, Header, Input, Form, Button, Segment } from 'semantic-ui-react'
+import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
 
 export default ({ data }) => {
   return (
@@ -32,12 +32,10 @@ export default ({ data }) => {
             <Grid.Column>
               <Link className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
                 <div className={'text'}>
-                  <h3>{node.frontmatter.title}</h3>
-                  {node.excerpt}
+                  <h5>{node.frontmatter.title}</h5>
+                  <p>{node.excerpt}</p>
                   <div className={'tags'}>
-                  {node.frontmatter.tags.map(({i}) =>
-                  <span>{[i]}</span>
-                  )}
+                  {node.frontmatter.tags.map(i => <Label circular color={'black'}>{[i]}</Label>)}
                   </div>
                 </div>
               </Link>
@@ -123,7 +121,7 @@ export const query = graphql`
 query MyFilesQuery {
   allMarkdownRemark(
     filter: {frontmatter: { tags: {in: ["featured"]} } },
-   sort: { fields: [frontmatter___index], order: ASC }
+    sort: { fields: [frontmatter___index], order: ASC }
  )
      {
        edges {
@@ -137,7 +135,7 @@ query MyFilesQuery {
              title
              date
              tags
-            image {
+             image {
               childImageSharp {
                 responsiveResolution(width: 600) {
                   src
