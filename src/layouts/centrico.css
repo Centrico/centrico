@@ -98,7 +98,7 @@ margin: 2rem 0!important;
   left: 0;
   bottom: 0;
   right: 0;
-  padding: 3em 2em 2em;
+  padding: 2.5em 1.5em 1.5em;
   background: rgba(34, 38, 38, .9);
   color: white;
   opacity: 0;
@@ -121,12 +121,12 @@ margin: 2rem 0!important;
 }
 .tags {
   position: absolute;
-  bottom: 2em;
+  bottom: 1em;
 }
 
 .ui.column.grid.thumbnails-grid {
-  margin-left: -3rem;
-  margin-right: -3rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
 }
 
 .ui.grid.thumbnails-grid>.column:not(.row) {
@@ -148,4 +148,5 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
   font-weight: 300!important;
   padding: .5em 1em!important;
   color: #9e9da5!important;
+  margin-bottom: 5px!important;
 }

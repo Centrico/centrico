@@ -21,7 +21,7 @@ export default ({ data }) => {
           </Segment>
         </Container>
       </div>
-      <Segment padded={"very"} basic className={"fluid-grid"}>
+      <Segment padded basic className={"fluid-grid"}>
         <Container>
           <Segment padded={"very"} basic>
             <Header as={'h4'} className={"spaced"} color={"purple"}>RECENT WORK</Header>
@@ -42,6 +42,11 @@ export default ({ data }) => {
             </Grid.Column>
         )}
         </Grid>
+        <Container>
+          <Segment padded={"very"} basic style={{paddingBottom: '0'}}>
+            <Link className={"spaced c-button"} to="/portfolio/"> VIEW PORTFOLIO</Link>
+          </Segment>
+        </Container>
       </Segment>
 
       <Container>
