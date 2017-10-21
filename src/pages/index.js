@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import StrategyHmIcon from '../../public/images/strategy-hm-icon.png'
 import DesignHmIcon from '../../public/images/design-hm-icon.png'
 import DevHmIcon from '../../public/images/dev-hm-icon.png'
+import ContactForm from '../components/form'
 
 
 var ReactDOM = require('react-dom');
@@ -89,32 +90,7 @@ export default ({ data }) => {
           <Segment padded={"very"} basic className={"fluid-grid"}>
             <Header as={'h2'}>Like what you see?  LETS TALK.</Header>
             <Header as={'h4'} className={"spaced"}>SUBMIT REQUEST</Header>
-            <Form>
-              <Grid columns={2}>
-                <Grid.Column>
-                  <Form.Field>
-                    <label>First Name</label>
-                    <input placeholder='First Name' />
-                  </Form.Field>
-                  <Form.Field>
-                    <label>Last Name</label>
-                    <input placeholder='Last Name' />
-                  </Form.Field>
-                  <Form.Field>
-                    <label>Last Name</label>
-                    <input placeholder='Last Name' />
-                  </Form.Field>
-                  <Form.Field>
-                    <label>Last Name</label>
-                    <input placeholder='Last Name' />
-                  </Form.Field>
-                </Grid.Column>
-                <Grid.Column>
-                  <Form.TextArea label='About' placeholder='Please describe your project ...' />
-                  <Button className={'c-button inverse'} type='submit'>Submit</Button>
-                </Grid.Column>
-              </Grid>
-            </Form>
+            <ContactForm/>
           </Segment>
         </Container>
       </div>
