@@ -1,5 +1,6 @@
 import React from 'react'
 import { Grid, Form, Button } from 'semantic-ui-react'
+import axios from 'axios';
 
 
 class ContactForm extends React.Component {
@@ -28,13 +29,18 @@ class ContactForm extends React.Component {
   }
 
   handleSubmit(event) {
-    // console.log(this.state.name);
-    // console.log(this.state.email);
-    // console.log(this.state.phone);
-    // console.log(this.state.company);
-    // console.log(this.state.message);
-   event.preventDefault();
- }
+      event.preventDefault();
+      let url = "https://formspree.io/german@centrico.io";
+      axios.post(url, {
+        data: {
+          name: this.state.name,
+          email: this.state.email,
+          phone: this.state.phone,
+          company: this.state.company,
+          message: this.state.message
+        }
+      })
+  }
 
   render() {
     return (
