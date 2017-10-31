@@ -1,0 +1,2 @@
+webpackJsonp([0xf56877dfa5f4],{778:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(1),f=l(n),a=u(71),r=(l(a),function(){return f.default.createElement("div",null,f.default.createElement("h1",null,"Services"))});t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-services-js-367c464d25a2108be846.js.map

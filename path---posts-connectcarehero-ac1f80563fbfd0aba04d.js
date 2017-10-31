@@ -1,0 +1,2 @@
+webpackJsonp([0x7079d7e26efe],{942:function(e,t){e.exports={data:{markdownRemark:{html:'<p>Pandas are really sweet.</p>\n<p>Here\'s a video of a panda eating sweets.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Connect Care Hero"}}},pathContext:{slug:"/posts/connectcarehero/"}}}});
+//# sourceMappingURL=path---posts-connectcarehero-ac1f80563fbfd0aba04d.js.map

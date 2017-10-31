@@ -1,0 +1,2 @@
+webpackJsonp([0x5eb881087a66],{991:function(e,t){e.exports={data:{markdownRemark:{html:"<p>Pandas are really sweet.</p>\n<p>Here's a video of a panda eating sweets.</p>",frontmatter:{title:"Active Citizen"}}},pathContext:{slug:"/posts/activeCitizen/",_PARENT:"SOURCE"}}}});
+//# sourceMappingURL=path---posts-active-citizen-6a69c7799f6c370b4aa3.js.map

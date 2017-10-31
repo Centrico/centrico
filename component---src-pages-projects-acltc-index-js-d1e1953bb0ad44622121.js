@@ -1,0 +1,2 @@
+webpackJsonp([0x8c4e0b082b96],{776:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(1),c=l(n),a=u(71),r=(l(a),function(){return c.default.createElement("div",null,c.default.createElement("h1",null,"Acltc"))});t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-projects-acltc-index-js-d1e1953bb0ad44622121.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([70144966829960],{773:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var l=u(1),a=n(l),r=u(71),c=(n(r),function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Contact"))});t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-contact-js-0fbc0853162ee7dcc2ed.js.map
