@@ -29,7 +29,6 @@ class ContactForm extends React.Component {
   }
 
   handleSubmit(event) {
-      event.preventDefault();
       let url = "https://formspree.io/german@centrico.io";
       axios.post(url, {
         data: {
@@ -40,11 +39,13 @@ class ContactForm extends React.Component {
           message: this.state.message
         }
       })
+      event.preventDefault();
+      document.getElementById("contact-form").reset();
   }
 
   render() {
     return (
-    <Form onSubmit={this.handleSubmit}>
+    <Form id="contact-form" onSubmit={this.handleSubmit}>
       <Grid columns={2}>
         <Grid.Column>
         <Form.Field>
