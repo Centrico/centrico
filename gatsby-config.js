@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/centrico`,
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
