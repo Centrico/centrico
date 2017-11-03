@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
+import { Menu, Icon } from 'semantic-ui-react'
 import Link from 'gatsby-link'
 import logo from '../../public/images/centrico-logo-300(2x).png'
 
@@ -7,12 +7,21 @@ export default class MenuExampleBasic extends Component {
   state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+  toggleMenu = () => {
+  let linksEl = document.querySelector('.screen-display');
+  if (linksEl.style.visibility === 'visible') {
+            linksEl.style.visibility = 'hidden';
+        } else {
+            linksEl.style.visibility = 'visible';
+        }
+  }
 
   render() {
     const { activeItem } = this.state
 
     return (
       <Menu className={'site-nav'}>
+      <div className={"common-nav"}>
         <Menu.Item
           name='logo'
           active={activeItem === 'logo'}
@@ -26,40 +35,56 @@ export default class MenuExampleBasic extends Component {
         </Link>
         </Menu.Item>
         <Menu.Item
-          name='portfolio'
-          active={activeItem === 'portfolio'}
-          onClick={this.handleItemClick}
+          name='logo'
+          onClick={this.toggleMenu}
+          as={'div'}
           position={'right'}
-          as={'div'}
+          className={'nav-toggle'}
         >
-          <Link to="/portfolio/">Portfolio</Link>
+          <Icon link name='content' size={'large'} />
         </Menu.Item>
-        <Menu.Item
-          name='services'
-          active={activeItem === 'services'}
-          onClick={this.handleItemClick}
-          as={'div'}
-        >
-        <Link to="/services/">Services</Link>
-        </Menu.Item>
+        </div>
+        <div className="screen-display">
+          <Menu.Item
+            name='portfolio'
+            active={activeItem === 'portfolio'}
+            onClick={this.handleItemClick}
+            position={'right'}
+            as={'div'}
+            className={'spaced'}
+          >
+            <Link to="/portfolio/">Portfolio</Link>
+          </Menu.Item>
+          <Menu.Item
+            name='services'
+            active={activeItem === 'services'}
+            onClick={this.handleItemClick}
+            as={'div'}
+            className={'spaced'}
+          >
+          <Link to="/services/">Services</Link>
+          </Menu.Item>
 
-        <Menu.Item
-          name='about'
-          active={activeItem === 'about'}
-          onClick={this.handleItemClick}
-          as={'div'}
-        >
-          <Link to="/about/">About</Link>
-        </Menu.Item>
+          <Menu.Item
+            name='about'
+            active={activeItem === 'about'}
+            onClick={this.handleItemClick}
+            as={'div'}
+            className={'spaced'}
+          >
+            <Link to="/about/">About</Link>
+          </Menu.Item>
 
-        <Menu.Item
-          name='contact'
-          active={activeItem === 'contact'}
-          onClick={this.handleItemClick}
-          as={'div'}
-        >
-          <Link to="/contact/">Contact</Link>
-        </Menu.Item>
+          <Menu.Item
+            name='contact'
+            active={activeItem === 'contact'}
+            onClick={this.handleItemClick}
+            as={'div'}
+            className={'spaced'}
+          >
+            <Link to="/contact/">Contact</Link>
+          </Menu.Item>
+        </div>
       </Menu>
     )
   }

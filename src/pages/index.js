@@ -33,8 +33,7 @@ export default ({ data }) => {
             <Grid.Column>
               <Link className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
                 <div className={'text'}>
-                  <h5>{node.frontmatter.title}</h5>
-                  <p>{node.excerpt}</p>
+                  <h5>{node.frontmatter.title}</h5>                  
                   <div className={'tags'}>
                   {node.frontmatter.tags.map(i => <Label circular color={'black'}>{[i]}</Label>)}
                   </div>

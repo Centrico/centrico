@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <SiteNav />
-    <div>
+    <div className="page-content">
       {children()}
     </div>
     <Footer />
