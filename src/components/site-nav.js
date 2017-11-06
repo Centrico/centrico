@@ -6,7 +6,14 @@ import logo from '../../public/images/centrico-logo-300(2x).png'
 export default class MenuExampleBasic extends Component {
   state = {}
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+  handleItemClick = (e, { name }) => {
+    let linksEl = document.querySelector('.screen-display');
+    const isMobile = window.innerWidth < 992;
+    this.setState({ activeItem: name });
+    if (isMobile) {
+      linksEl.style.visibility = 'hidden';
+    }
+  }
   toggleMenu = () => {
   let linksEl = document.querySelector('.screen-display');
   if (linksEl.style.visibility === 'visible') {
