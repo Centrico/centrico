@@ -43,10 +43,7 @@ export default Portfolio
 
 export const query = graphql`
 query portfolio {
-  allMarkdownRemark(
-    filter: {frontmatter: { tags: {in: ["featured"]} } },
-    sort: { fields: [frontmatter___index], order: ASC }
- )
+  allMarkdownRemark
      {
        edges {
          node {

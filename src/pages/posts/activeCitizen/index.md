@@ -3,7 +3,7 @@ title: "Active Citizen"
 date: "2018-08-02"
 tags: [featured, dev, design, community]
 index: 1
-image: athumbnail.png
+image: thumbnail.png
 ---
 
 Pandas are really sweet.
