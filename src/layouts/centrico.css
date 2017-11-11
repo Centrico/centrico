@@ -222,3 +222,13 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
   color: #9e9da9!important;
   margin-bottom: 5px!important;
 }
+
+
+
+/* Overwrites Container */
+
+@media only screen and (min-width: 1049px) {
+  .ui.container {
+      width: 1050px;
+  }
+}

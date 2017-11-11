@@ -67,17 +67,32 @@ export default ({ data }) => {
               <Grid.Column>
                 <img src={StrategyHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+                <p>
+                  Nothing happens at Centrico before we have a game plan.
+                  Strategy is all about saving time and resources to produce the best quality of work.
+                  We are very sensitive you your investment; that is why we put our 20+ years of
+                  expertise combined to your service to optimize the process and minimize the cost. If you win we win.
+                </p>
               </Grid.Column>
               <Grid.Column>
                 <img src={DesignHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}>DESIGN</Header>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+                <p>
+                  We call it creative digital. Why? Because competitive advantage in
+                  the modern era doesn’t exist without innovative design solutions that
+                  take complex problems and turn them into a simplified personal experience
+                  for the user. Not to mention the time you’ll save in development when a design is clear and executable.
+                </p>
               </Grid.Column>
               <Grid.Column>
                 <img src={DevHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}> DEVELOPMENT</Header>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+                <p>
+                  We specialize in Ruby and Javascript technologies that provide an stable and rich experience in
+                  front and back end of a product no matter the size. Our process is flexible when working
+                  with clients and users but rigorous when it comes to developing the product.
+                  We strive to deliver unbreakable software that just works!
+                </p>
               </Grid.Column>
             </Grid>
             <Link className={"spaced c-button"} to="/services/"> All SERVICES</Link>
