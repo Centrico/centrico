@@ -1,2 +1,2 @@
-webpackJsonp([0xd914211a3a5c],{993:function(a,e){a.exports={data:{markdownRemark:{html:"<p>Pandas are really sweet.</p>\n<p>Here's a video of a panda eating sweets.</p>",frontmatter:{title:"Centrico"}}},pathContext:{slug:"/posts/centrico/",_PARENT:"SOURCE"}}}});
+webpackJsonp([0xd914211a3a5c],{726:function(a,e){a.exports={data:{markdownRemark:{html:"<p>Pandas are really sweet.</p>\n<p>Here's a video of a panda eating sweets.</p>",frontmatter:{title:"Centrico"}}},pathContext:{slug:"/posts/centrico/",_PARENT:"SOURCE"}}}});
 //# sourceMappingURL=path---posts-centrico-225bbecc099f79cc5fdb.js.map

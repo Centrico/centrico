@@ -1,0 +1,2 @@
+webpackJsonp([0xf3ad9dbb8a0f],{730:function(e,a){e.exports={data:{markdownRemark:{html:'<p>Pandas are really sweet.</p>\n<p>Here\'s a video of a panda eating sweets.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Mastery Manager"}}},pathContext:{slug:"/posts/MasteryManager/",_PARENT:"SOURCE"}}}});
+//# sourceMappingURL=path---posts-mastery-manager-d56a238273d4eefe9b6d.js.map
