@@ -28,7 +28,7 @@ export default ({ data }) => {
             <Header as={'h4'} className={"spaced"} color={"purple"}>RECENT WORK</Header>
           </Segment>
         </Container>
-        <Grid columns={5} className={'thumbnails-grid'}>
+        <Grid columns={5} className={'thumbnails-grid-home'}>
         {data.allMarkdownRemark.edges.map(({ node }) =>
             <Grid.Column>
               <Link className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>

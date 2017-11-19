@@ -1,7 +1,7 @@
 ---
 title: "Seattle's Best Coffee"
 date: "2017-08-02"
-tags: [featured, dev, design, community]
+tags: [featured, development, design,]
 image: thumbnail.png
 ---
 

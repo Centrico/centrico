@@ -105,6 +105,11 @@
 margin: 2rem 0!important;
 }
 
+/*  Project Page */
+.project-hero {
+  width: 100%;
+}
+
 /* Footer */
 
 
@@ -156,10 +161,10 @@ margin: 2rem 0!important;
 
 /* Thumbnails */
 
-.thumbnails-grid .thumbnail {
+.thumbnails-grid-home, .thumbnail {
   display: block;
   padding-top: 100%;
-  width: 100%;
+  width: auto;
   position: relative;
   background-size: contain;
 }
@@ -196,19 +201,26 @@ margin: 2rem 0!important;
   bottom: 1em;
 }
 
-.ui.column.grid.thumbnails-grid {
+.ui.column.grid.thumbnails-grid-home {
   margin-left: -1.5rem;
   margin-right: -1.5rem;
 }
 
-.ui.grid.thumbnails-grid>.column:not(.row) {
+.ui.grid.thumbnails-grid>.column:not(.row),
+.ui.grid.thumbnails-grid-home>.column:not(.row) {
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
 
-/* Overwrites
+/* Individual Pages */
+
+.markdown-text {
+  margin-top: 1.5em;
+}
+
+/* OVERWRITES ===========================
 Putting them here to develop faster
 They might need to be moved to the semantic overwrites file for Gulp to compile
 */
@@ -221,6 +233,10 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
   padding: .5em 1em!important;
   color: #9e9da9!important;
   margin-bottom: 5px!important;
+}
+
+.ui.column.grid.thumbnails-grid {
+  margin-bottom: -25px;
 }
 
 
