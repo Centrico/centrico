@@ -5,11 +5,6 @@ import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } f
 
 const Portfolio = ({ data }) => (
   <div>
-    <Container>
-      <Segment padded={"very"} basic>
-        <Header as={'h4'} className={"spaced"} color={"purple"}>PORTFOLIO</Header>
-      </Segment>
-    </Container>
     <Segment padded basic className={"fluid-grid"}>
       <Grid columns={5} className={'thumbnails-grid'}>
       {data.allMarkdownRemark.edges.map(({ node }) =>

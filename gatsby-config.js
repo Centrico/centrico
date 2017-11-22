@@ -1,6 +1,6 @@
 module.exports = {
   // Uncomment the line below for now when running yarn deploy
-  pathPrefix: `/centrico`,
+  // pathPrefix: `/centrico`,
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },

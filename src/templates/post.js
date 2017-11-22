@@ -6,6 +6,13 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <div>
+      <Segment basic className={"fluid-grid"}>
+          <Grid columns={1} className={'thumbnails-grid'}>
+            <Grid.Column>
+              <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" />
+            </Grid.Column>
+          </Grid>
+      </Segment>
       <Container>
         <Segment padded={'very'} basic>
           <Header as={'h2'} color={"purple"} className={"main-header"}>{post.frontmatter.title}</Header>
@@ -15,21 +22,6 @@ export default ({ data }) => {
           </div>
         </Segment>
       </Container>
-      <Segment basic className={"fluid-grid"}>
-          <Grid columns={1} className={'thumbnails-grid'}>
-            <Grid.Column>
-              <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" />
-            </Grid.Column>
-          </Grid>
-          <Grid columns={2} className={'thumbnails-grid'}>
-            <Grid.Column>
-              <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" />
-            </Grid.Column>
-            <Grid.Column>
-              <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" />
-            </Grid.Column>
-          </Grid>
-      </Segment>
       <div className={"form"}>
         <Container>
           <Segment padded={"very"} basic className={"fluid-grid"}>
@@ -52,7 +44,7 @@ export const query = graphql`
         tags
         hero {
          childImageSharp {
-           responsiveResolution(width: 2200) {
+           responsiveResolution(width: 1800) {
              src
             }
           }
