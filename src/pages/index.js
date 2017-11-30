@@ -1,9 +1,9 @@
 import _ from 'lodash'
 import React from 'react'
 import Link from 'gatsby-link'
-import StrategyHmIcon from '../../public/images/strategy-hm-icon.png'
-import DesignHmIcon from '../../public/images/design-hm-icon.png'
-import DevHmIcon from '../../public/images/dev-hm-icon.png'
+import StrategyHmIcon from '../images/strategy-hm-icon.png'
+import DesignHmIcon from '../images/design-hm-icon.png'
+import DevHmIcon from '../images/dev-hm-icon.png'
 import ContactForm from '../components/form'
 
 

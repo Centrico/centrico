@@ -3,22 +3,22 @@ import Link from 'gatsby-link'
 import ContactForm from '../components/form'
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
 // Icons
-import UxHmIcon from '../../public/images/ux-hm-icon.png'
-import ManagementHmIcon from '../../public/images/strategy-hm-icon.png'
-import BrandingHmIcon from '../../public/images/branding-hm-icon.png'
-import UiHmIcon from '../../public/images/interface-hm-icon.png'
-import WebHmIcon from '../../public/images/web-hm-icon.png'
-import AdHmIcon from '../../public/images/ads-hm-icon.png'
-import CustomHmIcon from '../../public/images/custom-hm-icon.png'
-import NativeHmIcon from '../../public/images/dev-hm-icon.png'
-import EcommerceHmIcon from '../../public/images/ecommerce-hm-icon.png'
-import CmsHmIcon from '../../public/images/cms-hm-icon.png'
+import UxHmIcon from '../images/ux-hm-icon.png'
+import ManagementHmIcon from '../images/strategy-hm-icon.png'
+import BrandingHmIcon from '../images/branding-hm-icon.png'
+import UiHmIcon from '../images/interface-hm-icon.png'
+import WebHmIcon from '../images/web-hm-icon.png'
+import AdHmIcon from '../images/ads-hm-icon.png'
+import CustomHmIcon from '../images/custom-hm-icon.png'
+import NativeHmIcon from '../images/dev-hm-icon.png'
+import EcommerceHmIcon from '../images/ecommerce-hm-icon.png'
+import CmsHmIcon from '../images/cms-hm-icon.png'
 
 
 
-import StrategyHmIcon from '../../public/images/strategy-hm-icon.png'
-import DesignHmIcon from '../../public/images/design-hm-icon.png'
-import DevHmIcon from '../../public/images/dev-hm-icon.png'
+import StrategyHmIcon from '../images/strategy-hm-icon.png'
+import DesignHmIcon from '../images/design-hm-icon.png'
+import DevHmIcon from '../images/dev-hm-icon.png'
 
 const Services = () => (
   <div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Menu, Icon } from 'semantic-ui-react'
 import Link from 'gatsby-link'
-import logo from '../../public/images/centrico-logo-300(2x).png'
+import logo from '../images/centrico-logo-300(2x).png'
 
 export default class MenuExampleBasic extends Component {
   state = {}
