@@ -214,6 +214,28 @@ margin: 2rem 0!important;
   padding-right: 0;
 }
 
+/*  Responsive layout */
+
+@media only screen and (max-width : 992px) {
+  .ui.grid.thumbnails-grid-home>.column:not(.row) {
+    width: 33.333%;
+  }
+
+  .ui.grid.thumbnails-grid-home>.column:not(.row):last-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+    .ui.grid.thumbnails-grid-home>.column:not(.row) {
+      width: 50%;
+    }
+    .ui.grid.thumbnails-grid-home>.column:not(.row):last-child {
+      display: block;
+    }
+  }
+
+
 /* Individual Pages */
 
 .markdown-text {
