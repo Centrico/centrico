@@ -3,6 +3,7 @@ title: "Connect Care Hero"
 date: "2017-08-02"
 tags: [featured, dev, design, community]
 image: thumbnail.png
+hero: ./hero.png
 ---
 
 Pandas are really sweet.

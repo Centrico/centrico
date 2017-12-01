@@ -44,7 +44,7 @@ export const query = graphql`
         tags
         hero {
          childImageSharp {
-           responsiveResolution(width: 1800) {
+           responsiveResolution(width: 3600) {
              src
             }
           }

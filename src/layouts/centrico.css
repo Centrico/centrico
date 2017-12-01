@@ -8,11 +8,12 @@
   background: white;
   box-shadow: none;
   border: none;
-  padding: 2em 2em 1em;
+  padding: 1em 2em 1em;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
+  margin-bottom: 0;
 }
 
 .ui.menu:not(.vertical) .right.item.nav-toggle {
@@ -85,7 +86,7 @@
   }
 }
 
-.page-content {
+.tent {
   margin-top: 120px;
 }
 
@@ -236,10 +237,15 @@ margin: 2rem 0!important;
   }
 
 
-/* Individual Pages */
+/* Individual Pages - Post Template  */
 
 .markdown-text {
   margin-top: 1.5em;
+}
+
+.gatsby-resp-image-wrapper {
+  max-width: 100%!important;
+  margin: 2em 0;
 }
 
 /* OVERWRITES ===========================
@@ -269,4 +275,7 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
   .ui.container {
       width: 1050px;
   }
+}
+.page-content {
+  margin-top: 50px;
 }
