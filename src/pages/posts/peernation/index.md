@@ -1,12 +1,8 @@
 ---
 title: "Peernation"
 date: "2017-08-02"
-tags: [featured, dev, design, community]
+tags: [featured, design, branding]
 image: thumbnail.png
 ---
 
-Pandas are really sweet.
-
-Here's a video of a panda eating sweets.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+Peer Nation is a private network dedicated to helping sales professionals and consultants accelerate their sales cycles through peer-to-peer networking. Using algorithms peernation can assist with account insights, contact information and referrals between peers. This project was crafted from scratch providing full branding services web and user interface design that is responsive and customized to the brand.

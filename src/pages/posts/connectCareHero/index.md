@@ -1,13 +1,9 @@
 ---
 title: "Connect Care Hero"
 date: "2017-08-02"
-tags: [featured, dev, design, community]
+tags: [featured, design]
 image: thumbnail.png
 hero: ./hero.png
 ---
 
-Pandas are really sweet.
-
-Here's a video of a panda eating sweets.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+Connect Care Hero is an mobile application that helps nursing homes deliver personalized care for elder and their families. We helped create its identity as well provided design direction and interface design for the App.  Personalization nowadays is key to delivering a great experience so we worked with CCH in executing multiple design variations to adjust to time, events and activities that included personalized Iconography.

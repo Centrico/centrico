@@ -18,14 +18,14 @@ export default ({ data }) => {
       <div className={"marquee"}>
         <Container>
           <Segment padded={"very"} basic>
-            <Header as={'h2'} color={"purple"} className={"main-header"}>Creative Digital Solutions</Header>
+            <Header as={'h2'} color={"purple"} className={"main-header"}>Design, Development & Entrepreneurship</Header>
           </Segment>
         </Container>
       </div>
       <Segment padded basic className={"fluid-grid"}>
         <Container>
           <Segment padded={"very"} basic>
-            <Header as={'h4'} className={"spaced"} color={"purple"}>RECENT WORK</Header>
+            <Header as={'h4'} className={"spaced"} color={"purple"}>RECENT PROJECTS</Header>
           </Segment>
         </Container>
         <Grid columns={5} className={'thumbnails-grid-home'}>
@@ -70,7 +70,7 @@ export default ({ data }) => {
                 <p>
                   Nothing happens at Centrico before we have a game plan.
                   Strategy is all about saving time and resources to produce the best quality of work.
-                  We are very sensitive you your investment; that is why we put our 20+ years of
+                  We are very sensitive to your investment; that is why we put our 20+ years of
                   expertise combined to your service to optimize the process and minimize the cost. If you win we win.
                 </p>
               </Grid.Column>
@@ -78,7 +78,7 @@ export default ({ data }) => {
                 <img src={DesignHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}>DESIGN</Header>
                 <p>
-                  We call it creative digital. Why? Because competitive advantage in
+                  We say creativity is at the core of everything we do. Why? Because competitive advantage in
                   the modern era doesn’t exist without innovative design solutions that
                   take complex problems and turn them into a simplified personal experience
                   for the user. Not to mention the time you’ll save in development when a design is clear and executable.

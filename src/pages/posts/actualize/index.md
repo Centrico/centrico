@@ -1,7 +1,7 @@
 ---
 title: "Actualize"
 date: "2017-08-10"
-tags: [featured]
+tags: [featured, design]
 image: thumbnail.png
 hero: hero.png
 ---

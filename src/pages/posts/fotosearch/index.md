@@ -1,12 +1,8 @@
 ---
 title: "Fotosearch"
 date: "2017-08-02"
-tags: [featured, dev, design, community]
+tags: [featured, design]
 image: thumbnail.png
 ---
 
-Pandas are really sweet.
-
-Here's a video of a panda eating sweets.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+A large Royalty-Free Stock Photography site needed a fresh and updated look to showcase over 40.3 million items. Multiple responsive templates were provided to optimize the experience in mobile devices.

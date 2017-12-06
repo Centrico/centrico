@@ -5,8 +5,4 @@ tags: [featured, development, design,]
 image: thumbnail.png
 ---
 
-Pandas are really sweet.
-
-Here's a video of a panda eating sweets.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+As a lead designer and part of Purei this project gave a great interactive and fun experience to coffee lovers. A responsive design that allow the user to be engaged with prominent graphics as well as easy navigation to find coffee types and available locations for purchase.

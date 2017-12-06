@@ -1,12 +1,8 @@
 ---
-title: "MCA"
+title: "MC Appliance"
 date: "2017-08-02"
-tags: [featured, dev, design, community]
+tags: [featured, development, design]
 image: thumbnail.png
 ---
 
-Pandas are really sweet.
-
-Here's a video of a panda eating sweets.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+MC specializes in compact and small kitchen appliances. The challenge to design their e-commerce site was to unify all MC brands under one cohesive and consistent experience. A responsive design that allows customers to find products and track orders from several locations available by creating a secure account.

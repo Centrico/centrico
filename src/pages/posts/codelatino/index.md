@@ -1,7 +1,7 @@
 ---
 title: "CodeLatino"
 date: "2017-08-02"
-tags: [featured, dev, design, community]
+tags: [featured, development, design, community]
 image: thumbnail.png
 hero: ./hero.png
 ---

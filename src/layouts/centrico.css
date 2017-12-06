@@ -82,19 +82,19 @@
   .ui.site-nav.menu .screen-display .item {
       display: block;
       flex: none;
-      margin-left: 2em!important;
+      gin-left: 2em!important;
   }
 }
 
 .tent {
-  margin-top: 120px;
+  gin-top: 120px;
 }
 
-/* Marquee */
+/* quee */
 
 .marquee {
   margin-bottom: -6rem;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 .spaced {
@@ -256,7 +256,7 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
 
 .ui.black.label {
   background: transparent!important;
-  border: 1px solid #686d74!important;
+  border: 1px solid #a0a0a0!important;
   font-weight: 300!important;
   padding: .5em 1em!important;
   color: #9e9da9!important;
