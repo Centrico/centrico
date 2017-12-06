@@ -9,7 +9,7 @@ export default ({ data }) => {
       <Segment basic className={"fluid-grid"}>
           <Grid columns={1} className={'thumbnails-grid'}>
             <Grid.Column>
-              <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" />
+            {post.frontmatter.hero ? <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" /> : null}
             </Grid.Column>
           </Grid>
       </Segment>
