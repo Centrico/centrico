@@ -216,7 +216,12 @@ margin: 2rem 0!important;
 }
 
 /*  Responsive layout */
+.page-content {
+  overflow: hidden;
+  margin: 0;
+}
 
+/*Tablet*/
 @media only screen and (max-width : 992px) {
   .ui.grid.thumbnails-grid-home>.column:not(.row) {
     width: 33.333%;
@@ -225,14 +230,33 @@ margin: 2rem 0!important;
   .ui.grid.thumbnails-grid-home>.column:not(.row):last-child {
     display: none;
   }
+  /* .mobile class targets tablet and phone*/
+  .mobile .column {
+    width: 100%!important;
+  }
+
+  .ui.basic.segment, .ui.basic.very.padded.segment  {
+    padding: 1em!important;
+  }
 }
 
+/*phone*/
 @media only screen and (max-width : 480px) {
     .ui.grid.thumbnails-grid-home>.column:not(.row) {
       width: 50%;
     }
     .ui.grid.thumbnails-grid-home>.column:not(.row):last-child {
       display: block;
+    }
+    /*.tablet target tablet query only - refactor
+      todo: separate and organize layouts and media queries. use sass if needed
+    */
+    .mobile .column {
+      width: 100%!important;
+    }
+
+    .phone .column {
+      width: 100%!important;
     }
   }
 

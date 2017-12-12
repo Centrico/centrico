@@ -46,7 +46,7 @@ class ContactForm extends React.Component {
   render() {
     return (
     <Form id="contact-form" onSubmit={this.handleSubmit}>
-      <Grid columns={2}>
+      <Grid columns={2} className={'mobile tablet'}>
         <Grid.Column>
         <Form.Field>
           <label>

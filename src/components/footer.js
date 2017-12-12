@@ -20,7 +20,7 @@ export default class MenuExampleBasic extends Component {
             </Link>
           </Segment>
           <Segment padded={"very"} basic className={"fluid-grid"}>
-            <Grid columns={3}>
+            <Grid columns={3} className="phone">
               <Grid.Column>
               <p>STRATEGY</p>
               <Link to="/services/"> UX Design</Link>

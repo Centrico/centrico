@@ -63,7 +63,7 @@ export default ({ data }) => {
         <Container>
           <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
             <Header as={'h2'} color={"purple"}>We help you design and develop products that your costumers will love.</Header>
-            <Grid columns={3} className={'no-vertical-margin'}>
+            <Grid columns={3} className={'no-vertical-margin mobile'}>
               <Grid.Column>
                 <img src={StrategyHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
