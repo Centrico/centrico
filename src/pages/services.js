@@ -26,7 +26,7 @@ const Services = () => (
       <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
         <Header as={'h2'} color={"purple"}>The strategy is finding the closest path to solving user’s problems</Header>
-        <Grid columns={3} className={'no-vertical-margin'}>
+        <Grid columns={3} className={'no-vertical-margin mobile'}>
           <Grid.Column>
             <img src={UxHmIcon} alt="Strategy Icon" />
             <Header as={'h4'} className={"spaced"} color={"purple"}>USER EXPERIENCE</Header>
@@ -66,7 +66,7 @@ const Services = () => (
       <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>DESIGN</Header>
         <Header as={'h2'} color={"purple"}>An eficient and consistent design improves development and user satisfaction</Header>
-        <Grid columns={2} className={'no-vertical-margin'}>
+        <Grid columns={2} className={'no-vertical-margin phone'}>
           <Grid.Column>
             <img src={BrandingHmIcon} alt="Strategy Icon" />
             <Header as={'h4'} className={"spaced"} color={"purple"}>BRANDING - IDENTITY</Header>
@@ -87,7 +87,7 @@ const Services = () => (
             </p>
           </Grid.Column>
         </Grid>
-        <Grid columns={2} className={'no-vertical-margin'}>
+        <Grid columns={2} className={'no-vertical-margin phone'}>
           <Grid.Column>
             <img src={WebHmIcon} alt="Strategy Icon" />
             <Header as={'h4'} className={"spaced"} color={"purple"}>WEB DESIGN</Header>
@@ -111,7 +111,7 @@ const Services = () => (
       <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>DEVELOPMENT</Header>
         <Header as={'h2'} color={"purple"}>We use the right technologies at the right time with a vision to the future</Header>
-        <Grid columns={2} className={'no-vertical-margin'}>
+        <Grid columns={2} className={'no-vertical-margin phone'}>
           <Grid.Column>
             <img src={CustomHmIcon} alt="Strategy Icon" />
             <Header as={'h4'} className={"spaced"} color={"purple"}>CUSTOM SOLUTIONS</Header>
@@ -131,7 +131,7 @@ const Services = () => (
             </p>
           </Grid.Column>
         </Grid>
-        <Grid columns={2} className={'no-vertical-margin'}>
+        <Grid columns={2} className={'no-vertical-margin phone'}>
           <Grid.Column>
             <img src={EcommerceHmIcon} alt="Strategy Icon" />
             <Header as={'h4'} className={"spaced"} color={"purple"}>E-COMMERCE</Header>

@@ -86,15 +86,11 @@
   }
 }
 
-.tent {
-  gin-top: 120px;
-}
-
 /* quee */
 
 .marquee {
   margin-bottom: -6rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .spaced {
@@ -218,12 +214,13 @@ margin: 2rem 0!important;
 /*  Responsive layout */
 .page-content {
   overflow: hidden;
-  margin: 0;
+  margin: 0!important;
 }
 
 /*Tablet*/
 @media only screen and (max-width : 992px) {
-  .ui.grid.thumbnails-grid-home>.column:not(.row) {
+  .ui.grid.thumbnails-grid-home>.column:not(.row),
+  .ui.grid.thumbnails-grid-port>.column:not(.row) {
     width: 33.333%;
   }
 
@@ -242,7 +239,8 @@ margin: 2rem 0!important;
 
 /*phone*/
 @media only screen and (max-width : 480px) {
-    .ui.grid.thumbnails-grid-home>.column:not(.row) {
+    .ui.grid.thumbnails-grid-home>.column:not(.row),
+    .ui.grid.thumbnails-grid-port>.column:not(.row) {
       width: 50%;
     }
     .ui.grid.thumbnails-grid-home>.column:not(.row):last-child {
@@ -301,5 +299,5 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
   }
 }
 .page-content {
-  margin-top: 50px;
+  margin-top: 100px!important;
 }

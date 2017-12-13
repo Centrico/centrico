@@ -6,7 +6,7 @@ import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } f
 const Portfolio = ({ data }) => (
   <div>
     <Segment padded basic className={"fluid-grid"}>
-      <Grid columns={5} className={'thumbnails-grid'}>
+      <Grid columns={5} className={'thumbnails-grid thumbnails-grid-port'}>
       {data.allMarkdownRemark.edges.map(({ node }) =>
           <Grid.Column>
             <Link className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>

@@ -44,7 +44,7 @@ export default class MenuExampleBasic extends Component {
               </Grid.Column>
             </Grid>
           </Segment>
-          <Grid columns={3}>
+          <Grid columns={3} className="phone">
             <Grid.Column>
               <Segment padded={'very'} basic>
                 <Icon link name='linkedin' size={'large'} />
