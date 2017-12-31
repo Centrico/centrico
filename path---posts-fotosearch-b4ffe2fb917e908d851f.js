@@ -1,0 +1,2 @@
+webpackJsonp([29111545080164],{730:function(e,t){e.exports={data:{markdownRemark:{html:"<p>A large Royalty-Free Stock Photography site needed a fresh and updated look to showcase over 40.3 million items. Multiple responsive templates were provided to optimize the experience in mobile devices.</p>\n<p></p>",frontmatter:{title:"Fotosearch",tags:["featured","design"],hero:null}}},pathContext:{slug:"/posts/fotosearch/"}}}});
+//# sourceMappingURL=path---posts-fotosearch-b4ffe2fb917e908d851f.js.map

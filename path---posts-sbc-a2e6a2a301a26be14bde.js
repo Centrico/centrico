@@ -1,0 +1,2 @@
+webpackJsonp([7078877197767],{735:function(e,t){e.exports={data:{markdownRemark:{html:"<p>As a lead designer and part of Purei this project gave a great interactive and fun experience to coffee lovers. A responsive design that allow the user to be engaged with prominent graphics as well as easy navigation to find coffee types and available locations for purchase.</p>",frontmatter:{title:"Seattle's Best Coffee",tags:["featured","development","design"],hero:null}}},pathContext:{slug:"/posts/sbc/"}}}});
+//# sourceMappingURL=path---posts-sbc-a2e6a2a301a26be14bde.js.map

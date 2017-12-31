@@ -1,0 +1,2 @@
+webpackJsonp([0xd914211a3a5c],{727:function(e,t){e.exports={data:{markdownRemark:{html:"<p>Pandas are really sweet.</p>\n<p>Here's a video of a panda eating sweets.</p>",frontmatter:{title:"Centrico",tags:["featured","development","design","community"],hero:null}}},pathContext:{slug:"/posts/centrico/"}}}});
+//# sourceMappingURL=path---posts-centrico-4dc0a3f34a171f35f205.js.map

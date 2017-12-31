@@ -1,0 +1,2 @@
+webpackJsonp([7078877197767],{735:function(e,t){e.exports={data:{markdownRemark:{html:'<p>Pandas are really sweet.</p>\n<p>Here\'s a video of a panda eating sweets.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Seattle's Best Coffee",tags:["featured","development","design"],hero:null}}},pathContext:{slug:"/posts/sbc/"}}}});
+//# sourceMappingURL=path---posts-sbc-e3f782d616263e239b83.js.map
