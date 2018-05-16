@@ -18,7 +18,8 @@
     "gatsby-transformer-sharp": "^1.6.10",
     "lodash": "^4.17.4",
     "react-markdown": "^2.5.0",
-    "semantic-ui-react": "^0.74.2"
+    "semantic-ui-react": "^0.74.2",
+    "coffee-script": "1.12.7"
   },
   "keywords": [
     "gatsby"
