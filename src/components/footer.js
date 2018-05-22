@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Menu, Grid, Container, Segment, Icon } from 'semantic-ui-react'
 import Link from 'gatsby-link'
-import logo from '../images/centrico-logo-300(2x)-negative.png'
 
 export default class MenuExampleBasic extends Component {
   state = {}
@@ -16,7 +15,7 @@ export default class MenuExampleBasic extends Component {
         <Container>
           <Segment padded={"very"} basic className={"site-logo"}>
             <Link to="/">
-              <img src={logo} alt="Logo" />
+              THOUGHTCODE
             </Link>
           </Segment>
           <Segment padded={"very"} basic className={"fluid-grid"}>
@@ -44,7 +43,7 @@ export default class MenuExampleBasic extends Component {
               </Grid.Column>
             </Grid>
           </Segment>
-          <Grid columns={3} className="phone">
+          <Grid columns={2} className="phone">
             <Grid.Column>
               <Segment padded={'very'} basic>
                 <Icon link name='linkedin' size={'large'} />
@@ -55,7 +54,7 @@ export default class MenuExampleBasic extends Component {
             </Grid.Column>
             <Grid.Column>
               <Segment padded={'very'} basic>
-                Copyright Centrico LLC 2017
+                Copyright THOUGHTCODE LLC 2018
               </Segment>
             </Grid.Column>
           </Grid>

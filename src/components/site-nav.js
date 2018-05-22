@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Menu, Icon } from 'semantic-ui-react'
 import Link from 'gatsby-link'
-import logo from '../images/centrico-logo-300(2x).png'
 
 export default class MenuExampleBasic extends Component {
   state = {}
@@ -38,7 +37,7 @@ export default class MenuExampleBasic extends Component {
           className={'site-logo'}
         >
         <Link to="/">
-          <img src={logo} alt="Logo" />
+          THOUGHTCODE
         </Link>
         </Menu.Item>
         <Menu.Item

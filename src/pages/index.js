@@ -68,7 +68,7 @@ export default ({ data }) => {
                 <img src={StrategyHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
                 <p>
-                  Nothing happens at Centrico before we have a game plan.
+                  Nothing happens at THOUGHTCODE before we have a game plan.
                   Strategy is all about saving time and resources to produce the best quality of work.
                   We are very sensitive to your investment; that is why we put our 20+ years of
                   expertise combined to your service to optimize the process and minimize the cost. If you win we win.
