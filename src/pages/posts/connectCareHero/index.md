@@ -3,6 +3,7 @@ title: "Connect Care Hero"
 date: "2017-08-02"
 tags: [featured, design]
 image: thumbnail.png
+index: 6
 hero: ./hero.png
 ---
 

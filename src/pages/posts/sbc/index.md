@@ -2,6 +2,7 @@
 title: "Seattle's Best Coffee"
 date: "2017-08-02"
 tags: [featured, development, design,]
+index: 5
 image: thumbnail.png
 ---
 

@@ -2,6 +2,7 @@
 title: "MC Appliance"
 date: "2017-08-02"
 tags: [featured, development, design]
+index: 9
 image: thumbnail.png
 ---
 

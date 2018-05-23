@@ -2,6 +2,7 @@
 title: "NAPW"
 date: "2017-08-02"
 tags: [featured, design]
+index: 8
 image: thumbnail.png
 ---
 

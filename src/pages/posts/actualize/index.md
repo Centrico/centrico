@@ -3,6 +3,7 @@ title: "Actualize"
 date: "2017-08-10"
 tags: [featured, design]
 image: thumbnail.png
+index: 4
 hero: hero.png
 ---
 

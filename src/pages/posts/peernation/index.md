@@ -1,7 +1,7 @@
 ---
 title: "Peernation"
 date: "2017-08-02"
-tags: [featured, design, branding]
+tags: [design, branding]
 image: thumbnail.png
 ---
 

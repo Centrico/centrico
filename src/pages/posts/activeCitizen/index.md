@@ -1,7 +1,7 @@
 ---
 title: "Active Citizen"
 date: "2018-08-02"
-tags: [featured, development, design, community]
+tags: [development, design, community]
 index: 1
 image: thumbnail.png
 hero: hero.png
