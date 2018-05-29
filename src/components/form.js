@@ -7,7 +7,7 @@ class ContactForm extends React.Component {
 
   render() {
     return (
-    <Form name="contact" method="POST" data-netlify="true">
+    <Form name="contact" method="POST" netlify>
       <Grid columns={2} className={'mobile tablet'}>
         <Grid.Column>
         <Form.Field>
@@ -23,15 +23,7 @@ class ContactForm extends React.Component {
             Email:
             <input
               name="email"
-              type="text"/>
-          </label>
-          </Form.Field>
-          <Form.Field>
-          <label>
-            Phone Number:
-            <input
-              name="phone"
-              type="text"/>
+              type="email"/>
           </label>
           </Form.Field>
           <Form.Field>
@@ -49,7 +41,7 @@ class ContactForm extends React.Component {
             <Form.TextArea
               name="message"
               placeholder="Please describe your project ..."/>
-            <Button className={'c-button inverse'} type='submit' value="Submit">Submit</Button>
+            <Button className={'c-button inverse'} type='submit'>Submit</Button>
           </label>
         </Grid.Column>
       </Grid>
