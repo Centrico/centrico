@@ -47,7 +47,7 @@ class ContactForm extends React.Component {
     //   </Grid>
     // </Form>
     <div>
-    <form name="contact" method="POST" netlify>
+    <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
