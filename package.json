@@ -5,10 +5,12 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "axios": "^0.17.0",
+    "coffee-script": "1.12.7",
     "gatsby": "^1.9.70",
     "gatsby-cli": "^1.1.52",
     "gatsby-link": "^1.6.17",
     "gatsby-plugin-glamor": "^1.6.8",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-sharp": "^1.6.9",
     "gatsby-remark-copy-linked-files": "^1.5.9",
@@ -18,8 +20,7 @@
     "gatsby-transformer-sharp": "^1.6.10",
     "lodash": "^4.17.4",
     "react-markdown": "^2.5.0",
-    "semantic-ui-react": "^0.74.2",
-    "coffee-script": "1.12.7"
+    "semantic-ui-react": "^0.74.2"
   },
   "keywords": [
     "gatsby"
