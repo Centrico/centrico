@@ -185,6 +185,10 @@ margin: 2rem 0!important;
   float: right;
 }
 
+.form .form-button {
+  clear: both;
+}
+
 @media only screen and (max-width: 991px) {
   .form .form-info, .form .form-message {
     width: 100%;
