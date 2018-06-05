@@ -18,7 +18,7 @@ export default ({ data }) => {
       <div className={"marquee"}>
         <Container>
           <Segment padded={"very"} basic>
-            <Header as={'h2'} color={"purple"} className={"main-header"}>Design, Development & Entrepreneurship</Header>
+            <Header as={'h1'} color={"purple"} className={"main-header"}>Web, Mobile Development, and Design Firm</Header>
           </Segment>
         </Container>
       </div>
@@ -31,7 +31,7 @@ export default ({ data }) => {
         <Grid columns={5} className={'thumbnails-grid-home'}>
         {data.allMarkdownRemark.edges.map(({ node }) =>
             <Grid.Column>
-              <Link className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
+              <Link title={node.frontmatter.title} className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
                 <div className={'text'}>
                   <h5>{node.frontmatter.title}</h5>
                   <div className={'tags'}>
@@ -44,7 +44,7 @@ export default ({ data }) => {
         </Grid>
         <Container>
           <Segment padded={"very"} basic style={{paddingBottom: '0'}}>
-            <Link className={"spaced c-button"} to="/portfolio/"> VIEW PORTFOLIO</Link>
+            <Link title={'Web and Mobile Development, and Design Portfolio - ThoughtCode'} className={"spaced c-button"} to="/portfolio/"> VIEW PORTFOLIO</Link>
           </Segment>
         </Container>
       </Segment>
@@ -54,7 +54,7 @@ export default ({ data }) => {
           <Header as={'h2'} color={"purple"}>We’re All an Innovative Force</Header>
           <Header as={'h4'} className={"spaced"} color={"purple"}> OUR APPROACH</Header>
           <p>We are a digital firm with creativity at the core. We believe our clients represent the innovative force that enhances, helps, transforms... people’s lifes. We are here to help you push those boundries even further and provide meaningful experiences that WOW costmers and drive bussines. We focus in  websites, custom apps, user experience, branding, marketing, and all things digital for clients, audiences and ourselves.</p>
-          <Link className={"spaced c-button"} to="/about/">
+          <Link title={'About Web and Mobile Development, and Design Firm - ThoughtCode'} className={"spaced c-button"} to="/about/">
           ABOUT</Link>
         </Segment>
       </Container>
@@ -95,7 +95,7 @@ export default ({ data }) => {
                 </p>
               </Grid.Column>
             </Grid>
-            <Link className={"spaced c-button"} to="/services/"> All SERVICES</Link>
+            <Link title={'Web and Mobile Development, and Design Services - ThoughtCode'} className={"spaced c-button"} to="/services/"> All SERVICES</Link>
           </Segment>
         </Container>
       </div>
