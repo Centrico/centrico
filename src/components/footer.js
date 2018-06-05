@@ -22,24 +22,24 @@ export default class MenuExampleBasic extends Component {
             <Grid columns={3} className="phone">
               <Grid.Column>
               <p>STRATEGY</p>
-              <Link to="/services/"> UX Design</Link>
-              <Link to="/services/"> Product Management</Link>
-              <Link to="/services/"> Project Management</Link>
+              <Link to="/services/#strategy"> UX Design</Link>
+              <Link to="/services/#strategy"> Product Management</Link>
+              <Link to="/services/#strategy"> Project Management</Link>
               </Grid.Column>
               <Grid.Column>
               <p>DESIGN</p>
-              <Link to="/services/"> Interface Design</Link>
-              <Link to="/services/"> Brand Identity</Link>
-              <Link to="/services/"> Web Design</Link>
-              <Link to="/services/"> Graphic Design</Link>
-              <Link to="/services/"> Advertising</Link>
+              <Link to="/services/#design"> Interface Design</Link>
+              <Link to="/services/#design"> Brand Identity</Link>
+              <Link to="/services/#design"> Web Design</Link>
+              <Link to="/services/#design"> Graphic Design</Link>
+              <Link to="/services/#design"> Advertising</Link>
               </Grid.Column>
               <Grid.Column>
               <p>DEVELOPMENT</p>
-              <Link to="/services/">Custom Solutions</Link>
-              <Link to="/services/"> Native Apps</Link>
-              <Link to="/services/"> E-Commerce</Link>
-              <Link to="/services/">Content Management</Link>
+              <Link to="/services/#development">Custom Solutions</Link>
+              <Link to="/services/#development"> Native Apps</Link>
+              <Link to="/services/#development"> E-Commerce</Link>
+              <Link to="/services/#development">Content Management</Link>
               </Grid.Column>
             </Grid>
           </Segment>

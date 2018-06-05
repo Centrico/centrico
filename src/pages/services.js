@@ -23,7 +23,7 @@ import DevHmIcon from '../images/dev-hm-icon.png'
 const Services = () => (
   <div>
     <Container>
-      <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
+      <Segment padded={"very"} basic className={"fluid-grid hm-block-img"} id={"strategy"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
         <Header as={'h2'} color={"purple"}>The strategy is finding the closest path to solving user’s problems</Header>
         <Grid columns={3} className={'no-vertical-margin mobile'}>
@@ -63,7 +63,7 @@ const Services = () => (
           </Grid.Column>
         </Grid>
       </Segment>
-      <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
+      <Segment padded={"very"} basic className={"fluid-grid hm-block-img"} id={"design"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>DESIGN</Header>
         <Header as={'h2'} color={"purple"}>An eficient and consistent design improves development and user satisfaction</Header>
         <Grid columns={2} className={'no-vertical-margin phone'}>
@@ -108,7 +108,7 @@ const Services = () => (
           </Grid.Column>
         </Grid>
       </Segment>
-      <Segment padded={"very"} basic className={"fluid-grid hm-block-img"}>
+      <Segment padded={"very"} basic className={"fluid-grid hm-block-img"} id={"development"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>DEVELOPMENT</Header>
         <Header as={'h2'} color={"purple"}>We use the right technologies at the right time with a vision to the future</Header>
         <Grid columns={2} className={'no-vertical-margin phone'}>
