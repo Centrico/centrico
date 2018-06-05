@@ -45,11 +45,16 @@ export default class MenuExampleBasic extends Component {
           </Segment>
           <Grid columns={2} className="phone">
             <Grid.Column>
-              <Segment padded={'very'} basic>
-                <Icon link name='linkedin' size={'large'} />
-                <Icon link name='facebook f' size={'large'} />
-                <Icon link name='twitter' size={'large'} />
-                <Icon link name='google plus' size={'large'} />
+              <Segment padded={'very'} basic className={"social"}>
+                <a title={"thoughtcode Linkedin profile"} href="https://www.linkedin.com/company/thought-code/">
+                  <Icon link name='linkedin' size={'large'} />
+                </a>
+                <a title={"thoughtcode facebook profile"} href="https://www.facebook.com/thoughtcodetech/">
+                  <Icon link name='facebook f' size={'large'} />
+                </a>
+                <a title={"thoughtcode twitter profile"} href="https://twitter.com/thoughtcode1">
+                  <Icon link name='twitter' size={'large'} />
+                </a>
               </Segment>
             </Grid.Column>
             <Grid.Column>
