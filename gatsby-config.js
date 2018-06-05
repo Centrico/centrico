@@ -2,7 +2,7 @@ module.exports = {
   // Uncomment the line below for now when running yarn deploy
   // pathPrefix: `/centrico`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Web and Mobile Development, and design firm - ThoughtCode`,
   },
   plugins: [
     {

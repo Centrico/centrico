@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "ThoughtCode",
+  "description": "Web and Mobile Development, and design firm - ThoughtCode",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "German Cabezas",
   "dependencies": {
     "axios": "^0.17.0",
     "coffee-script": "1.12.7",
