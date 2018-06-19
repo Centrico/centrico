@@ -6,12 +6,14 @@ index: 2
 image: thumbnail.png
 ---
 
-Is a German company dedicated to provide affiliation services for multiple contract management for all fixed-term contracts. It is possible to identify all user’s current contracts, record their renewal-due date and then contact them, in time, with appropriate switching options.
-
-Foldairs is some kind of an assistance to manage all your fixed contracts and bills from a bunch of companies and services like Netflix, Vodafone, Sky, etc. Helping users to save money as a new customer when there are better offers on the market, even users can earn money cause Foldairs share commissions with them.
+Foldairs provides affiliation services for multiple management contracts. Identifies all user’s current contracts, record their renewal-due date and then contact them, in time, with appropriate switching options. To back such a complex service our team in collaboration with Foldaris developed multiple features to streamline the process present a more stable application and improve the user experience through the user interface.
 
 ### Technologies:
 - Ruby, Ruby on Rails
 - Database:
 - PostgreSQL
 - Html, Javascript, CSS, Foundation Framework.
+
+![Foldaris Home](./fold-1.png "Foldaris Home")
+![Foldaris Dashboard](./fold-2.png "Foldaris Dashboard")
+![Foldaris Dashboard Main](./fold-3.png "Foldaris Dashboard Main")

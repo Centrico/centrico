@@ -15,3 +15,8 @@ Foldairs is some kind of an assistance to manage all your fixed contracts and bi
 - Database:
 - PostgreSQL
 - Html, Javascript, CSS, Foundation Framework.
+
+
+![Friendly Transfer](./ft-4.png "Friendly Transfer")
+![Friendly Transfer](./ft-2.png "Friendly Transfer")
+![Friendly Transfer](./ft-3.png "Friendly Transfer")
