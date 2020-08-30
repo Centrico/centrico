@@ -9,7 +9,7 @@ const Portfolio = ({ data }) => (
       <Grid columns={5} className={'thumbnails-grid thumbnails-grid-port'}>
       {data.allMarkdownRemark.edges.map(({ node }) =>
           <Grid.Column>
-            <Link title={node.frontmatter.title} className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
+            <Link title={node.frontmatter.title} className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.resolutions.src + ")" }}>
               <div className={'text'}>
                 <h5>{node.frontmatter.title}</h5>
                 <div className={'tags'}>
@@ -53,7 +53,7 @@ query portfolio {
              tags
              image {
               childImageSharp {
-                responsiveResolution(width: 600) {
+                resolutions(width: 600) {
                   src
                 }
               }

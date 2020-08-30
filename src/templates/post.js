@@ -9,7 +9,7 @@ export default ({ data }) => {
       <Segment basic className={"fluid-grid"}>
           <Grid columns={1} className={'thumbnails-grid'}>
             <Grid.Column>
-            {post.frontmatter.hero ? <img className="project-hero" src={post.frontmatter.hero.childImageSharp.responsiveResolution.src} alt="Smiley face" /> : null}
+            {post.frontmatter.hero ? <img className="project-hero" src={post.frontmatter.hero.childImageSharp.resolutions.src} alt="Smiley face" /> : null}
             </Grid.Column>
           </Grid>
       </Segment>
@@ -44,7 +44,7 @@ export const query = graphql`
         tags
         hero {
          childImageSharp {
-           responsiveResolution(width: 3600) {
+           resolutions(width: 3600) {
              src
             }
           }

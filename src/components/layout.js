@@ -5,7 +5,7 @@ import SiteNav from '../components/site-nav'
 import Footer from '../components/footer'
 import '../../semantic/dist/semantic.min.css';
 
-import './centrico.css'
+import '../styles/centrico.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
     />
     <SiteNav />
     <div className="page-content">
-      {children()}
+      {children}
     </div>
     <Footer />
   </div>

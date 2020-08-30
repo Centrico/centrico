@@ -1,5 +1,6 @@
 import _ from 'lodash'
 import React from 'react'
+import Layout from "../components/layout"
 import Link from 'gatsby-link'
 import StrategyHmIcon from '../images/strategy-hm-icon.png'
 import DesignHmIcon from '../images/design-hm-icon.png'
@@ -7,14 +8,14 @@ import DevHmIcon from '../images/dev-hm-icon.png'
 import ContactForm from '../components/form'
 
 
-var ReactDOM = require('react-dom');
-var ReactMarkdown = require('react-markdown');
+// var ReactDOM = require('react-dom');
+// var ReactMarkdown = require('react-markdown');
 
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
 
 export default ({ data }) => {
   return (
-    <div>
+    <Layout>
       <div className={"marquee"}>
         <Container>
           <Segment padded={"very"} basic>
@@ -31,7 +32,7 @@ export default ({ data }) => {
         <Grid columns={5} className={'thumbnails-grid-home'}>
         {data.allMarkdownRemark.edges.map(({ node }) =>
             <Grid.Column>
-              <Link title={node.frontmatter.title} className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.responsiveResolution.src + ")" }}>
+              <Link title={node.frontmatter.title} className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.resolutions.src + ")" }}>
                 <div className={'text'}>
                   <h5>{node.frontmatter.title}</h5>
                   <div className={'tags'}>
@@ -108,7 +109,7 @@ export default ({ data }) => {
           </Segment>
         </Container>
       </div>
-    </div>
+    </Layout>
   )
 }
 
@@ -132,7 +133,7 @@ query MyFilesQuery {
              tags
              image {
               childImageSharp {
-                responsiveResolution(width: 600) {
+                resolutions(width: 600) {
                   src
                 }
               }
