@@ -43,7 +43,7 @@ export default ({ data }) => {
             </Grid.Column>
         )}
         </Grid>
-        <Container>
+        <Container className={"no-margin"}>
           <Segment padded={"very"} basic style={{paddingBottom: '0'}}>
             <Link title={'Web and Mobile Development, and Design Portfolio - ThoughtCode'} className={"spaced c-button"} to="/portfolio/"> VIEW PORTFOLIO</Link>
           </Segment>

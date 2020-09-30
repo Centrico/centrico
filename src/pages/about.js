@@ -2,10 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
 import ContactForm from '../components/form'
+import SiteNav from '../components/site-nav'
 
 
 const Contact = () => (
   <div>
+    <SiteNav></SiteNav>
     <Container>
       <Segment padded={"very"} basic>
         <Header as={'h2'} color={"purple"} className={"main-header"}>The Story behind THOUGHTCODE!</Header>

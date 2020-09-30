@@ -89,9 +89,7 @@
       gin-left: 2em!important;
   }
 }
-.ui.basic.segment.portfolio {
-  margin-top: 94px;
-}
+
 /* quee */
 
 .marquee {
@@ -347,15 +345,12 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
 }
 
 
+
 /* Overwrites Container */
 
 @media only screen and (min-width: 1049px) {
   .ui.container {
-      margin-top: 100px;
       width: 1050px;
-  }
-  .marquee .ui.container, .ui.container.no-margin {
-    margin-top: 0;
   }
 }
 .page-content {
@@ -371,10 +366,4 @@ They might need to be moved to the semantic overwrites file for Gulp to compile
   color: #653e92;
   font-weight: 600;
   background: white;
-}
-
-
-/* text overrides */
-p {
- font-size: 1.2rem;
 }

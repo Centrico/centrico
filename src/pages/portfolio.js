@@ -2,10 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import ContactForm from '../components/form'
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
+import SiteNav from '../components/site-nav'
 
 const Portfolio = ({ data }) => (
   <div>
-    <Segment padded basic className={"fluid-grid"}>
+    <SiteNav></SiteNav>
+    <Segment padded basic className={"fluid-grid portfolio"}>
       <Grid columns={5} className={'thumbnails-grid thumbnails-grid-port'}>
       {data.allMarkdownRemark.edges.map(({ node }) =>
           <Grid.Column>

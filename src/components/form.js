@@ -1,6 +1,6 @@
 import React from 'react'
-import { Grid, Form, Button } from 'semantic-ui-react'
-import axios from 'axios';
+// import { Grid, Form, Button } from 'semantic-ui-react'
+// import axios from 'axios';
 
 
 class ContactForm extends React.Component {

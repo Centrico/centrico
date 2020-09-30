@@ -13,6 +13,7 @@ import CustomHmIcon from '../images/custom-hm-icon.png'
 import NativeHmIcon from '../images/dev-hm-icon.png'
 import EcommerceHmIcon from '../images/ecommerce-hm-icon.png'
 import CmsHmIcon from '../images/cms-hm-icon.png'
+import SiteNav from '../components/site-nav'
 
 
 
@@ -22,6 +23,7 @@ import DevHmIcon from '../images/dev-hm-icon.png'
 
 const Services = () => (
   <div>
+    <SiteNav></SiteNav>
     <Container>
       <Segment padded={"very"} basic className={"fluid-grid hm-block-img"} id={"strategy"}>
         <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
