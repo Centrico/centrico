@@ -15,7 +15,7 @@ export default class MenuExampleBasic extends Component {
         <Container>
           <Segment padded={"very"} basic className={"site-logo"}>
             <Link to="/">
-              THOUGHTCODE
+              MVMNT
             </Link>
           </Segment>
           <Segment padded={"very"} basic className={"fluid-grid"}>
@@ -46,20 +46,20 @@ export default class MenuExampleBasic extends Component {
           <Grid columns={2} className="phone">
             <Grid.Column>
               <Segment padded={'very'} basic className={"social"}>
-                <a title={"thoughtcode Linkedin profile"} href="https://www.linkedin.com/company/thought-code/">
+                <a title={"MVMNT Linkedin profile"} href="https://www.linkedin.com/company/thought-code/">
                   <Icon link name='linkedin' size={'large'} />
                 </a>
-                <a title={"thoughtcode facebook profile"} href="https://www.facebook.com/thoughtcodetech/">
+                <a title={"MVMNT facebook profile"} href="https://www.facebook.com/thoughtcodetech/">
                   <Icon link name='facebook f' size={'large'} />
                 </a>
-                <a title={"thoughtcode twitter profile"} href="https://twitter.com/thoughtcode1">
+                <a title={"MVMNT twitter profile"} href="https://twitter.com/thoughtcode1">
                   <Icon link name='twitter' size={'large'} />
                 </a>
               </Segment>
             </Grid.Column>
             <Grid.Column>
               <Segment padded={'very'} basic>
-                Copyright THOUGHTCODE LLC 2018
+                Copyright MVMNT LLC 2018
               </Segment>
             </Grid.Column>
           </Grid>

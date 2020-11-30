@@ -37,7 +37,7 @@ export default class MenuExampleBasic extends Component {
           className={'site-logo'}
         >
         <Link to="/">
-          THOUGHTCODE
+          MVMNT
         </Link>
         </Menu.Item>
         <Menu.Item

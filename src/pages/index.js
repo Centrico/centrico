@@ -45,7 +45,7 @@ export default ({ data }) => {
         </Grid>
         <Container className={"no-margin"}>
           <Segment padded={"very"} basic style={{paddingBottom: '0'}}>
-            <Link title={'Web and Mobile Development, and Design Portfolio - ThoughtCode'} className={"spaced c-button"} to="/portfolio/"> VIEW PORTFOLIO</Link>
+            <Link title={'Web and Mobile Development, and Design Portfolio - MVMNT'} className={"spaced c-button"} to="/portfolio/"> VIEW PORTFOLIO</Link>
           </Segment>
         </Container>
       </Segment>
@@ -55,7 +55,7 @@ export default ({ data }) => {
           <Header as={'h2'} color={"purple"}>We’re All an Innovative Force</Header>
           <Header as={'h4'} className={"spaced"} color={"purple"}> OUR APPROACH</Header>
           <p>We are a digital firm with creativity at the core. We believe our clients represent the innovative force that enhances, helps, transforms... people’s lifes. We are here to help you push those boundries even further and provide meaningful experiences that WOW costmers and drive bussines. We focus in  websites, custom apps, user experience, branding, marketing, and all things digital for clients, audiences and ourselves.</p>
-          <Link title={'About Web and Mobile Development, and Design Firm - ThoughtCode'} className={"spaced c-button"} to="/about/">
+          <Link title={'About Web and Mobile Development, and Design Firm - MVMNT'} className={"spaced c-button"} to="/about/">
           ABOUT</Link>
         </Segment>
       </Container>
@@ -69,7 +69,7 @@ export default ({ data }) => {
                 <img src={StrategyHmIcon} alt="Strategy Icon" />
                 <Header as={'h4'} className={"spaced"} color={"purple"}>STRATEGY</Header>
                 <p>
-                  Nothing happens at THOUGHTCODE before we have a game plan.
+                  Nothing happens at MVMNT before we have a game plan.
                   Strategy is all about saving time and resources to produce the best quality of work.
                   We are very sensitive to your investment; that is why we put our 20+ years of
                   expertise combined to your service to optimize the process and minimize the cost. If you win we win.
@@ -96,7 +96,7 @@ export default ({ data }) => {
                 </p>
               </Grid.Column>
             </Grid>
-            <Link title={'Web and Mobile Development, and Design Services - ThoughtCode'} className={"spaced c-button"} to="/services/"> All SERVICES</Link>
+            <Link title={'Web and Mobile Development, and Design Services - MVMNT'} className={"spaced c-button"} to="/services/"> All SERVICES</Link>
           </Segment>
         </Container>
       </div>
