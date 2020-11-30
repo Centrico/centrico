@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from "../components/layout"
 import Link from 'gatsby-link'
 import ContactForm from '../components/form'
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
@@ -22,7 +23,7 @@ import DesignHmIcon from '../images/design-hm-icon.png'
 import DevHmIcon from '../images/dev-hm-icon.png'
 
 const Services = () => (
-  <div>
+  <Layout>
     <SiteNav></SiteNav>
     <Container>
       <Segment padded={"very"} basic className={"fluid-grid hm-block-img"} id={"strategy"}>
@@ -160,7 +161,7 @@ const Services = () => (
         </Segment>
       </Container>
     </div>
-  </div>
+  </Layout>
 )
 
 export default Services

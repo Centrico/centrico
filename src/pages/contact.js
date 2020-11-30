@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from "../components/layout"
 import Link from 'gatsby-link'
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
 import ContactForm from '../components/form'
@@ -6,7 +7,7 @@ import SiteNav from '../components/site-nav'
 
 
 const Contact = () => (
-  <div>
+  <Layout>
     <SiteNav></SiteNav>
     <Container>
       <Segment padded={"very"} basic>
@@ -23,7 +24,7 @@ const Contact = () => (
         </Segment>
       </Container>
     </div>
-  </div>
+  </Layout>
 )
 
 export default Contact

@@ -1,11 +1,12 @@
 import React from 'react'
+import Layout from "../components/layout"
 import Link from 'gatsby-link'
 import ContactForm from '../components/form'
 import { Grid, Container, Image, Header, Input, Form, Button, Segment, Label } from 'semantic-ui-react'
 import SiteNav from '../components/site-nav'
 
 const Portfolio = ({ data }) => (
-  <div>
+  <Layout>
     <SiteNav></SiteNav>
     <Segment padded basic className={"fluid-grid portfolio"}>
       <Grid columns={5} className={'thumbnails-grid thumbnails-grid-port'}>
@@ -32,7 +33,7 @@ const Portfolio = ({ data }) => (
         </Segment>
       </Container>
     </div>
-  </div>
+  </Layout>
 )
 
 export default Portfolio
