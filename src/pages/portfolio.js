@@ -10,12 +10,12 @@ const Portfolio = ({ data }) => (
     <Segment padded basic className={"fluid-grid portfolio"}>
       <Grid columns={5} className={'thumbnails-grid thumbnails-grid-port'}>
       {data.allMarkdownRemark.edges.map(({ node }) =>
-          <Grid.Column>
+          <Grid.Column key={node.id}>
             <Link title={node.frontmatter.title} className={'thumbnail'} to={node.fields.slug} style={{ backgroundImage: "url(" + node.frontmatter.image.childImageSharp.resolutions.src + ")" }}>
               <div className={'text'}>
                 <h5>{node.frontmatter.title}</h5>
                 <div className={'tags'}>
-                {node.frontmatter.tags.map(i => <Label circular color={'black'}>{[i]}</Label>)}
+                {node.frontmatter.tags.map(i => <Label key={i} circular color={'black'}>{[i]}</Label>)}
                 </div>
               </div>
             </Link>

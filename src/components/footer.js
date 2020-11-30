@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Grid, Container, Segment, Icon } from 'semantic-ui-react'
+import { Grid, Container, Segment, Icon } from 'semantic-ui-react'
 import Link from 'gatsby-link'
 
 export default class MenuExampleBasic extends Component {

@@ -1,11 +1,13 @@
 import React from "react"
 import { Grid, Container, Label, Segment, Header} from 'semantic-ui-react'
 import ContactForm from '../components/form'
+import SiteNav from '../components/site-nav'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <div>
+      <SiteNav></SiteNav>
       <Segment basic className={"fluid-grid"}>
           <Grid columns={1} className={'thumbnails-grid'}>
             <Grid.Column>
