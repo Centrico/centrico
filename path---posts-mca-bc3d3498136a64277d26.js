@@ -1,2 +1,0 @@
-webpackJsonp([0xddf9fadc57a5],{732:function(e,a){e.exports={data:{markdownRemark:{html:'<p>Pandas are really sweet.</p>\n<p>Here\'s a video of a panda eating sweets.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"MCA",tags:["featured","dev","design","community"],hero:null}}},pathContext:{slug:"/posts/mca/"}}}});
-//# sourceMappingURL=path---posts-mca-bc3d3498136a64277d26.js.map

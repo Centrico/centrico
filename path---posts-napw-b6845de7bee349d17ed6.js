@@ -1,2 +1,0 @@
-webpackJsonp([0xa190c638228d],{733:function(e,a){e.exports={data:{markdownRemark:{html:'<p>Pandas are really sweet.</p>\n<p>Here\'s a video of a panda eating sweets.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"NAPW",tags:["featured","dev","design","community"],hero:null}}},pathContext:{slug:"/posts/napw/"}}}});
-//# sourceMappingURL=path---posts-napw-b6845de7bee349d17ed6.js.map
