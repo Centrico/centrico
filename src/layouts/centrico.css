@@ -103,7 +103,8 @@
 }
 
 .ui.header {
-margin: 2rem 0!important;
+  margin: 2rem 0!important;
+  font-weight: 400!important;
 }
 
 /*  Project Page */

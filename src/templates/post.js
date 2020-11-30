@@ -18,7 +18,7 @@ export default ({ data }) => {
       <Container>
         <Segment padded={'very'} basic>
           <Header as={'h2'} color={"purple"} className={"main-header"}>{post.frontmatter.title}</Header>
-          {post.frontmatter.tags.map(i => <Label circular color={'black'}>{[i]}</Label>)}
+          {post.frontmatter.tags.map(i => <Label key={i} circular color={'black'}>{[i]}</Label>)}
           <div className='markdown-text'>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
